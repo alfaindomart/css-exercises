@@ -8,6 +8,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   gap: 4px;
+  text-align: center;
 }
 
 .container div {
@@ -21,7 +22,7 @@
 .header {
   background-color: #393f4d;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   grid-column: 1 / span 2;
 }
 
@@ -30,6 +31,7 @@
 }
 
 .menu {
+  align-self: center;
 }
 
 .menu ul {
